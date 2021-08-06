@@ -1,0 +1,8 @@
+Build command:
+
+bazel build -c opt --config=ios_arm64 mediapipe/examples/ios/ObjectTrackerFramework:MediapipeObjectTracker
+
+
+Export Framework command:
+
+./path_ios_framework.sh MediapipeObjectTracker.zip ObjectTracker.h Detection.pbobjc.h
